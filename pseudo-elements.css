@@ -1,0 +1,48 @@
+/* div{
+    height: 600px;
+    width: 1100px;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin:10px;
+    text-align: justify;
+} */
+p{
+    padding: 10px;
+    text-indent: 55px;
+}
+p::selection{
+    background-color: rgb(69, 211, 133);
+}
+p::first-letter{
+    font-size: 30px;
+    color: brown;
+    background-color: white;
+}
+p::first-line{
+    background-color: yellow;
+}
+#one::before{
+   content: '(This is Pseudo property p::before)  ';
+   color: blue;
+   font-size: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+    
+}
+#one::after{
+    content: '(This is Pseudo property p::after)  ';
+    color: rgba(212, 6, 68, 0.979);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+h2 {
+    color: green;
+    font-style: italic;
+    text-align: center;
+}
+
+::marker{
+    color: green;
+}
